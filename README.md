@@ -1,10 +1,13 @@
 # DL-based-bees-counting-classification-and-analytical-model
 Using AI to aid the experts in discovering metadata yielded from bees counting and localization task.
 
-<img src="https://github.com/shinw97/DL-based-bees-counting-classification-and-analytical-model/blob/master/sample-detection.png" width="45%"/> <img src="https://github.com/shinw97/DL-based-bees-counting-classification-and-analytical-model/blob/master/sample-heatmap.png" width="45%"/>
+<img src="https://github.com/shinw97/DL-based-bees-counting-classification-and-analytical-model/blob/master/sample-count-graph.png" width="45%"/> <img src="https://github.com/shinw97/DL-based-bees-counting-classification-and-analytical-model/blob/master/sample-heatmap.png" width="45%"/>
 
 
 ## Some brief intro about the project...
+<p align="center">
+<img src="https://github.com/shinw97/DL-based-bees-counting-classification-and-analytical-model/blob/master/sample-detection.png" width="60%"/>
+</p>
 This project was developed in conjunction with my Academic Project I and II (final year project) during my CS study in University of Malaya. The project aimed to achieve three major objectives:
 
 1. Develop an automated computer vision-based counting and classification model.
