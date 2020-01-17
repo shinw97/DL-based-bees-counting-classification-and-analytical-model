@@ -1,7 +1,7 @@
 # DL-based-bees-counting-classification-and-analytical-model
 Using AI to aid the experts in discovering metadata yielded from bees counting and localization task.
 
-<img src="https://image.shutterstock.com/image-photo/white-transparent-leaf-on-mirror-260nw-1029171697.jpg"/> <img src="https://image.shutterstock.com/image-photo/white-transparent-leaf-on-mirror-260nw-1029171697.jpg"/>
+<img src="https://github.com/shinw97/DL-based-bees-counting-classification-and-analytical-model/blob/master/sample-detection.png" width="50%"/> <img src="https://github.com/shinw97/DL-based-bees-counting-classification-and-analytical-model/blob/master/sample-heatmap.png" width="50%"/>
 
 
 ## Some brief intro about the project...
