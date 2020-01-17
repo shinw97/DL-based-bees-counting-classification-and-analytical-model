@@ -5,14 +5,15 @@ Using AI to aid the experts in discovering metadata yielded from bees counting a
 
 
 ## Some brief intro about the project...
-<p align="center">
-<img src="https://github.com/shinw97/DL-based-bees-counting-classification-and-analytical-model/blob/master/sample-detection.png" width="60%"/>
-</p>
 This project was developed in conjunction with my Academic Project I and II (final year project) during my CS study in University of Malaya. The project aimed to achieve three major objectives:
 
 1. Develop an automated computer vision-based counting and classification model.
 2. Tabulate and provide visualization of the data for the domain experts to perform deeper research on bees behaviour.
 3. Instead of relying on only expert's knowledge, provide a representable output data to perform data driven research on the bees.
+
+<p align="center">
+<img src="https://github.com/shinw97/DL-based-bees-counting-classification-and-analytical-model/blob/master/sample-detection.png" width="50%"/>
+</p>
 
 The project is fully developed using Python 3 programming language, and YOLO architecture together with tf.keras DL library as the object detection framework. Kudos to [experiencor](https://github.com/experiencor) for making the [sample implementation of YOLO architecture in Keras](https://github.com/experiencor/keras-yolo2) available to the community. My own adaptation and simplified version of the framework is [here at another separated repo](https://github.com/shinw97/simplified-yolo-in-keras).
 
