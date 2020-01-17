@@ -20,7 +20,7 @@ The project is fully developed using Python 3 programming language, and YOLO arc
 ## Dependencies
 The training part of the project is developed in Google Colab platform (with GPU support). Most of the dependencies needed is included in the Google Colab environment, only a few more extra dependencies are needed to install if you plan to use Google Colab as the training environment:
 
-1. [classification_models](https://github.com/qubvel/classification_models)
+1. [image-classifiers-1.0.0](https://pypi.org/project/image-classifiers/)
 2. Upgrade the Colab's default TensorFlow version to 2.0
 
 Else if you are more interested to train it on local Jupyter-Notebook environment, just install the dependencies from the **requirements.txt** provided.
