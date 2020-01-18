@@ -5,7 +5,9 @@ Using AI to aid the experts in discovering metadata yielded from bees counting a
 
 
 ## Some brief intro about the project...
-This project was developed in conjunction with my Academic Project I and II (final year project) during my CS study in University of Malaya. The project aimed to achieve three major objectives:
+This project was developed in conjunction with my Academic Project I and II (final year project) during my CS degree in University of Malaya. The collaboration is made with Malaysian Agricultural Research and Development Institute (MARDI), a subdivision under the Ministry of Agriculture and Agro-based Industry Malaysia. 
+
+The project aimed to achieve three major objectives:
 
 1. Develop an automated computer vision-based counting and classification model.
 2. Tabulate and provide visualization of the data for the domain experts to perform deeper research on bees behaviour.
@@ -23,9 +25,13 @@ The training part of the project is developed in Google Colab platform (with GPU
 1. [image-classifiers-1.0.0](https://pypi.org/project/image-classifiers/)
 2. Upgrade the Colab's default TensorFlow version to 2.0
 
-Else if you are more interested to train it on local Jupyter-Notebook environment, just install the dependencies from the **requirements.txt** provided.
+Else if you are more interested to train it on local Jupyter-Notebook environment, just install the dependencies from the [**requirements.txt**](https://github.com/shinw97/DL-based-bees-counting-classification-and-analytical-model/blob/master/requirements.txt) provided.
 
 ## Project Structure
 ### Datasets
+The dataset consists of both raw (videos and images) and annotated images. The annotated images are divided into two groups, one consists of only worker bee, and another one consists of both worker bee and drone bee. All annotations are made using tools from [OpenLabeling](https://github.com/Cartucho/OpenLabeling). The labelled datasets can be accessed here:
+
+`TODO: google drive link`
+
 ### Training and Testing
 ### Data Visualization
