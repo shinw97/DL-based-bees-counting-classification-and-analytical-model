@@ -29,9 +29,21 @@ Else if you are more interested to train it on local Jupyter-Notebook environmen
 
 ## Project Structure
 ### Datasets
-The dataset consists of both raw (videos and images) and annotated images. The annotated images are divided into two groups, one consists of only worker bee, and another one consists of both worker bee and drone bee. All annotations are made using tools from [OpenLabeling](https://github.com/Cartucho/OpenLabeling). The labelled datasets can be accessed here:
+The dataset consists of both raw (videos and images) and annotated images. The annotated images are divided into two groups, one consists of only worker bee (1002), and another one consists of both worker bee and drone bee (50). 
+
+All annotations are made using tools from [OpenLabeling](https://github.com/Cartucho/OpenLabeling). The labelled datasets can be accessed here:
 
 `TODO: google drive link`
 
 ### Training and Testing
+
+
 ### Data Visualization
+Two major data visualization formats are available in this project, which are **simple graph plotting of bees count vs frame** and **frequency heatmap over n-frames**. Sample implementations are available at Demo.ipynb.
+
+## Notes: Possible Improvements
+
+1. Try different object detection drchitectures (M2Det, SSD, Faster R-CNN, etc)
+2. Try different CNN feature extractor (VGG16, InceptionNet, RNN, etc)
+3. Segment the image (e.g. focus on artificial beehive entry platform) using basic image processing methods (edge detector, binary thresholding, etc) to further clean up the datasets
+4. More data labelling!
