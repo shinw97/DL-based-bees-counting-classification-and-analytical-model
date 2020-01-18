@@ -1,5 +1,5 @@
 # DL-based-bees-counting-classification-and-analytical-model
-Using AI to aid the experts in discovering metadata yielded from bees counting and localization task.
+Using AI to aid the experts in discovering metadata yielded from bees counting and localization.
 
 <img src="https://github.com/shinw97/DL-based-bees-counting-classification-and-analytical-model/blob/master/sample-count-graph.png" width="45%"/> <img src="https://github.com/shinw97/DL-based-bees-counting-classification-and-analytical-model/blob/master/sample-heatmap.png" width="45%"/>
 
@@ -9,9 +9,9 @@ This project was developed in conjunction with my Academic Project I and II (fin
 
 The project aimed to achieve three major objectives:
 
-1. Develop an automated computer vision-based counting and classification model.
-2. Tabulate and provide visualization of the data for the domain experts to perform deeper research on bees behaviour.
-3. Instead of relying on only expert's knowledge, provide a representable output data to perform data driven research on the bees.
+1. Develop an automated computer vision-based bees counting and classification model.
+2. Tabulate and provide representable visualization of the data for the domain experts to perform deeper research on bees behaviour.
+3. Instead of relying on only human expert's knowledge, provide inspiration to invoke computational technology to accelerate data driven research in agricultural domain.
 
 <p align="center">
 <img src="https://github.com/shinw97/DL-based-bees-counting-classification-and-analytical-model/blob/master/sample-detection.png" width="50%"/>
@@ -45,5 +45,5 @@ Two major data visualization formats are available in this project, which are **
 
 1. Try different object detection drchitectures (M2Det, SSD, Faster R-CNN, etc)
 2. Try different CNN feature extractor (VGG16, InceptionNet, RNN, etc)
-3. Segment the image (e.g. focus on artificial beehive entry platform) using basic image processing methods (edge detector, binary thresholding, etc) to further clean up the datasets
+3. Segment the image and shrinking the region of interest (ROI) (e.g. focus on artificial beehive entry platform) using basic image processing methods (edge detector, binary thresholding, etc) to further clean up the datasets
 4. More data labelling!
