@@ -38,6 +38,14 @@ All annotations are made using tools from [OpenLabeling](https://github.com/Cart
 The training of the model is run with Google Colab's GPU resource (Tesla P-100 with 16GB VRAM/Tesla K-40 with 11GB VRAM) and took several hours to train on each different feature extractor architectures (Tiny YOLO, Full YOLO, ResNet18 and MobileNet). Each architecture is trained twice with two separate datasets (one-type and two-type). 
 
 #### Training Results
+<p align="center">
+<img src="https://github.com/shinw97/DL-based-bees-counting-classification-and-analytical-model/blob/master/results/results-table.png" width="75%"/>
+</p>
+
+<p align="center">
+<img src="https://github.com/shinw97/DL-based-bees-counting-classification-and-analytical-model/blob/master/results/one-type-validation-loss-mAP.png" width="40%"/>
+<img src="https://github.com/shinw97/DL-based-bees-counting-classification-and-analytical-model/blob/master/results/two-types-validation-loss-mAP.png" width="40%"/>
+</p>
 
 #### Source Code Descriptions
 
