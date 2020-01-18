@@ -28,7 +28,7 @@ Else, if you are more interested to train it on local Jupyter-Notebook environme
 
 ## Project Structure
 ### Datasets
-The dataset consists of both raw (videos and images) and annotated images. The annotated images are divided into two groups, one consists of only worker bee (1002), and another one consists of both worker bee and drone bee (50). 
+The dataset consists of both raw (videos and images) and annotated images. The annotated images are divided into two groups, one consists of only worker bee (1002), and another one consists of both worker bee and drone bee (1052). 
 
 All annotations are made using tools from [OpenLabeling](https://github.com/Cartucho/OpenLabeling). The labelled datasets can be accessed here:
 
