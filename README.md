@@ -1,7 +1,7 @@
 # DL-based-bees-counting-classification-and-analytical-model
 Using AI to aid the experts in discovering metadata yielded from bees counting and localization.
 
-<img src="https://github.com/shinw97/DL-based-bees-counting-classification-and-analytical-model/blob/master/sample-count-graph.png" width="45%"/> <img src="https://github.com/shinw97/DL-based-bees-counting-classification-and-analytical-model/blob/master/sample-heatmap.png" width="45%"/>
+<img src="https://github.com/shinw97/DL-based-bees-counting-classification-and-analytical-model/blob/master/results/sample-count-graph.png" width="45%"/> <img src="https://github.com/shinw97/DL-based-bees-counting-classification-and-analytical-model/blob/master/results/sample-heatmap.png" width="45%"/>
 
 ## Some brief intro about the project...
 This project was developed in conjunction with my Academic Project I and II (final year project) during my CS degree in University of Malaya. The collaboration is made with Malaysian Agricultural Research and Development Institute (MARDI), a subdivision under the Ministry of Agriculture and Agro-based Industry Malaysia. 
@@ -13,7 +13,7 @@ The project aimed to achieve three major objectives:
 3. Instead of relying on only human expert's knowledge, provide inspiration to invoke computational technology to accelerate data driven research in agricultural domain.
 
 <p align="center">
-<img src="https://github.com/shinw97/DL-based-bees-counting-classification-and-analytical-model/blob/master/sample-detection.png" width="50%"/>
+<img src="https://github.com/shinw97/DL-based-bees-counting-classification-and-analytical-model/blob/master/results/sample-detection.png" width="50%"/>
 </p>
 
 The project is fully developed using Python 3 programming language, and YOLO architecture together with tf.keras DL library as the object detection framework. Kudos to [experiencor](https://github.com/experiencor) for making the [sample implementation of YOLO architecture in Keras](https://github.com/experiencor/keras-yolo2) available to the community. My own adaptation and simplified version of the framework is [here at another separated repo](https://github.com/shinw97/simplified-yolo-in-keras).
