@@ -3,7 +3,6 @@ Using AI to aid the experts in discovering metadata yielded from bees counting a
 
 <img src="https://github.com/shinw97/DL-based-bees-counting-classification-and-analytical-model/blob/master/sample-count-graph.png" width="45%"/> <img src="https://github.com/shinw97/DL-based-bees-counting-classification-and-analytical-model/blob/master/sample-heatmap.png" width="45%"/>
 
-
 ## Some brief intro about the project...
 This project was developed in conjunction with my Academic Project I and II (final year project) during my CS degree in University of Malaya. The collaboration is made with Malaysian Agricultural Research and Development Institute (MARDI), a subdivision under the Ministry of Agriculture and Agro-based Industry Malaysia. 
 
@@ -25,7 +24,7 @@ The training part of the project is developed in Google Colab platform (with GPU
 1. [image-classifiers-1.0.0](https://pypi.org/project/image-classifiers/)
 2. Upgrade the Colab's default TensorFlow version to 2.0
 
-Else, if you are more interested to train it on local Jupyter-Notebook environment, you may just install the dependencies from the [**requirements.txt**](https://github.com/shinw97/DL-based-bees-counting-classification-and-analytical-model/blob/master/requirements.txt) provided.
+Else, if you are more interested to train it on local Jupyter-Notebook environment, you may just pip install the dependencies from the `requirements.txt` provided.
 
 ## Project Structure
 ### Datasets
@@ -36,14 +35,30 @@ All annotations are made using tools from [OpenLabeling](https://github.com/Cart
 `TODO: google drive link`
 
 ### Training and Testing
+The training of the model is run with Google Colab's GPU resource (Tesla P-100 with 16GB VRAM/Tesla K-40 with 11GB VRAM) and took several hours to train on each different feature extractor architectures (Tiny YOLO, Full YOLO, ResNet18 and MobileNet). 
 
+#### Source Code Descriptions
+
+| Files           | Description |
+|:-------------:| :------------------------------------------|
+| `main.ipynb` | Contains the actual implementation codes for the model training. |
+| `k_means_anchors.py`| Utility functions to compute the optimized list of anchors to be used based on k-means clustering method. |
+| `architecture.py` | YOLO framework declaration with several backend network architectures. |
+| `boundbox.py` | Simple class to provide simple object implementation for bounding boxes. |
+| `utils.py` | Contains utility functions used throughout the model training process. |
+
+
+#### Models
+All models trained can be accessed here:
+
+`TODO: google drive link`
 
 ### Data Visualization
-Two major data visualization formats are available in this project, which are **simple graph plotting of bees count vs frame** and **frequency heatmap over n-frames**. Sample implementations are available at Demo.ipynb.
+Two major data visualization formats are available in this project, which are **simple graph plotting of bees count vs frame** and **frequency heatmap over n-frames**. Sample implementations are available at `Demo.ipynb`.
 
 ## Notes: Possible Future Improvements
 
-1. Try different object detection drchitectures (M2Det, SSD, Faster R-CNN, etc)
-2. Try different CNN feature extractor (VGG16, InceptionNet, RNN, etc)
+1. Try different object detection architectures (M2Det, SSD, Faster R-CNN, etc)
+2. Try different CNN feature extractors (VGG16, InceptionNet, RNN, etc)
 3. Segment the image and shrinking the region of interest (ROI) (e.g. focus on artificial beehive entry platform) using basic image processing methods (edge detector, binary thresholding, etc) to further clean up the datasets
-4. More data labelling!
+4. More labelled data!
