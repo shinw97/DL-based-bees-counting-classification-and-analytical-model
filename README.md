@@ -25,7 +25,7 @@ The training part of the project is developed in Google Colab platform (with GPU
 1. [image-classifiers-1.0.0](https://pypi.org/project/image-classifiers/)
 2. Upgrade the Colab's default TensorFlow version to 2.0
 
-Else if you are more interested to train it on local Jupyter-Notebook environment, just install the dependencies from the [**requirements.txt**](https://github.com/shinw97/DL-based-bees-counting-classification-and-analytical-model/blob/master/requirements.txt) provided.
+Else, if you are more interested to train it on local Jupyter-Notebook environment, you may just install the dependencies from the [**requirements.txt**](https://github.com/shinw97/DL-based-bees-counting-classification-and-analytical-model/blob/master/requirements.txt) provided.
 
 ## Project Structure
 ### Datasets
@@ -41,7 +41,7 @@ All annotations are made using tools from [OpenLabeling](https://github.com/Cart
 ### Data Visualization
 Two major data visualization formats are available in this project, which are **simple graph plotting of bees count vs frame** and **frequency heatmap over n-frames**. Sample implementations are available at Demo.ipynb.
 
-## Notes: Possible Improvements
+## Notes: Possible Future Improvements
 
 1. Try different object detection drchitectures (M2Det, SSD, Faster R-CNN, etc)
 2. Try different CNN feature extractor (VGG16, InceptionNet, RNN, etc)
