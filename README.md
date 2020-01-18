@@ -35,7 +35,9 @@ All annotations are made using tools from [OpenLabeling](https://github.com/Cart
 `TODO: google drive link`
 
 ### Training and Testing
-The training of the model is run with Google Colab's GPU resource (Tesla P-100 with 16GB VRAM/Tesla K-40 with 11GB VRAM) and took several hours to train on each different feature extractor architectures (Tiny YOLO, Full YOLO, ResNet18 and MobileNet). 
+The training of the model is run with Google Colab's GPU resource (Tesla P-100 with 16GB VRAM/Tesla K-40 with 11GB VRAM) and took several hours to train on each different feature extractor architectures (Tiny YOLO, Full YOLO, ResNet18 and MobileNet). Each architecture is trained twice with two separate datasets (one-type and two-type). 
+
+#### Training Results
 
 #### Source Code Descriptions
 
