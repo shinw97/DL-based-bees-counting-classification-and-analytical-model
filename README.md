@@ -4,9 +4,9 @@ Using AI to aid the experts in discovering metadata yielded from bees counting a
 <img src="https://github.com/shinw97/DL-based-bees-counting-classification-and-analytical-model/blob/master/results/sample-count-graph.png" width="45%"/> <img src="https://github.com/shinw97/DL-based-bees-counting-classification-and-analytical-model/blob/master/results/sample-heatmap.png" width="45%"/>
 
 ## Some brief intro about the project...
-This project was developed in conjunction with my Academic Project I and II (final year project) during my CS degree in University of Malaya. The collaboration is made with Malaysian Agricultural Research and Development Institute (MARDI), a subdivision under the Ministry of Agriculture and Agro-based Industry Malaysia. 
+This project is developed in conjunction with my Academic Project I and II (final year project) during my CS degree in University of Malaya. The collaboration is made with Malaysian Agricultural Research and Development Institute (MARDI), a subdivision under the Ministry of Agriculture and Agro-based Industry Malaysia. 
 
-The project aimed to achieve three major objectives:
+The project hopes to achieve three major objectives:
 
 1. Develop an automated computer vision-based bees counting and classification model.
 2. Tabulate and provide representable visualization of the data for the domain experts to perform deeper research on bees behaviour.
