@@ -56,6 +56,7 @@ The training of the model is run with Google Colab's GPU resource (Tesla P-100 w
 | `architecture.py` | YOLO framework declaration with several backend network architectures. |
 | `boundbox.py` | Simple class to provide simple object implementation for bounding boxes. |
 | `utils.py` | Contains utility functions used throughout the model training process. |
+| `Demo.ipynb` | Using the model and visualize the output. |
 | `/Background Subtraction Method` | Included as part of the project, provides a performance comparison with the YOLO method.|
 
 
