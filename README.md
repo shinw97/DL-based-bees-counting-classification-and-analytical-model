@@ -32,7 +32,7 @@ The dataset consists of both raw (videos and images) and annotated images. The a
 
 All annotations are made using tools from [OpenLabeling](https://github.com/Cartucho/OpenLabeling). The labelled datasets can be accessed here:
 
-`TODO: google drive link`
+`https://drive.google.com/drive/folders/1Eig-ciaqW2_VPih6s-HuMJRjsmV8V3G2?usp=sharing`
 
 ### Training and Testing
 The training of the model is run with Google Colab's GPU resource (Tesla P-100 with 16GB VRAM/Tesla K-40 with 11GB VRAM) and took several hours to train on each different feature extractor architectures (Tiny YOLO, Full YOLO, ResNet18 and MobileNet). Each architecture is trained twice with two separate datasets (one-type and two-type). 
@@ -62,7 +62,7 @@ The training of the model is run with Google Colab's GPU resource (Tesla P-100 w
 #### Models
 All models trained can be accessed here:
 
-`TODO: google drive link`
+`https://drive.google.com/drive/folders/1fcoYfWa97VSOWjcSTwxM4OjZ8kxA-Ys3?usp=sharing`
 
 ### Data Visualization
 Two major data visualization formats are available in this project, which are **simple graph plotting of bees count vs frame** and **frequency heatmap over n-frames**. Sample implementations are available at `Demo.ipynb`.
